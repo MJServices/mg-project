@@ -451,7 +451,8 @@ div.chota-gola {
         gap: 7px;
         transition: all linear 0.3s;
     }
-    
+    .gola{
+        width: 100%;
     .ham span{
         height: 2px;
         width: 30px;
