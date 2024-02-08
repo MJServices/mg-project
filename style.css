@@ -233,6 +233,7 @@ nav{
 .page2{
     height: 30vh;
     width: 100%;
+    overflow: hidden;
 }
 .font-cont{
     display: flex;
