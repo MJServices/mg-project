@@ -10,9 +10,7 @@ body{
     height: 100%;
     width: 100%;
 }
-main{
-    display:none;
-}
+
 .intro{
     height: 100vh;
     width: 100vw;
@@ -417,7 +415,9 @@ div.chota-gola {
 }
 
 @media (max-width: 600px) {
-    
+    main{
+    display:none;
+}
 .page2{
     height: 30vh;
     width: 100vw;
