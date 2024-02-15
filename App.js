@@ -100,7 +100,8 @@ function mg_video() {
     
         video.addEventListener("mouseleave", (val)=>{
             crcr.style.height =  0 + "px",
-            crcr.style.width =  0 + "px"
+            crcr.style.width =  0 + "px",
+             crcr.style.display = "none",
             hma.style.display = "none"
         })
     
@@ -112,12 +113,12 @@ function mg_video() {
         crcr.style.width = 100 + "px"
         crcr.style.left = e.clientX + "px",
         crcr.style.top = e.clientY + "px",
-        crcr.style.transition = "all linear 0.3s"
+        crcr.style.transition = "all linear 0.3s",
         hma.style.display = "block"
     })
     video.addEventListener("mouseleave", (e)=>{
-        crcr.style.display = "none"
-        hma.style.display = "none"
+        crcr.style.display = "none",
+        hma.style.display = "none",
         crcr.style.transition = "all linear 0.1s"
     })
 }
