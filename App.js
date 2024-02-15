@@ -80,7 +80,7 @@ tl.from(".contant .rieght",{
 gsap.from(".page1 .img-cont video", {
     scale: 0,
 })
-
+main.style.display = "inline"
 }, 6000)
 
 function cursor(){
