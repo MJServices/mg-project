@@ -79,7 +79,7 @@ nav{
     position: relative;
 }
 .logo{
-    background-image: url("/Images/HMA_SERVICES.png");
+    background-image: url("HMA_SERVICES.png");
     height: 100%;
     width: 180px;
     background-size: cover;
