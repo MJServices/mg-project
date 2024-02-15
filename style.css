@@ -419,6 +419,12 @@ div.chota-gola {
 }
 
 @media (max-width: 600px) {
+    
+.page2{
+    height: 30vh;
+    width: 100%;
+    overflow:hidden;
+}
     .gola{
         width:100vw;
     }
