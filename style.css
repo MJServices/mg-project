@@ -419,6 +419,9 @@ div.chota-gola {
 }
 
 @media (max-width: 600px) {
+    .gola{
+        width:100vw;
+    }
     .page3 div{
         font-size: 7vw;
         margin-left: 0;
