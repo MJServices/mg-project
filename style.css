@@ -12,8 +12,6 @@ body{
 }
 main{
     display:none;
-    width: 100vw;
-    overflow: hidden;
 }
 .intro{
     height: 100vh;
