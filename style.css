@@ -516,12 +516,9 @@ div.chota-gola {
     ham-main{
         transform: translateY(-100px);
     }
-    .page4 section a h1{
-        letter-spacing: -5px;
-        font-family: Montserrat;
-        font-weight: 600;
-        padding-left: 10vw;
-        padding-top: 2vw;
-        padding-bottom: 2vw;
+    .page4 section a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 10vw;
     }
 }
