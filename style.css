@@ -422,7 +422,7 @@ div.chota-gola {
     
 .page2{
     height: 30vh;
-    width: 100%;
+    width: 100vw;
     overflow:hidden;
 }
     .gola{
@@ -533,5 +533,8 @@ div.chota-gola {
     color: #000000;
     text-decoration: none;
     font-size: 10vw;
+    }
+    .round{
+    animation: none;
     }
 }
