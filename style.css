@@ -415,9 +415,7 @@ div.chota-gola {
 }
 
 @media (max-width: 600px) {
-    main{
-    display:none;
-}
+    
 .page2{
     height: 30vh;
     width: 100vw;
