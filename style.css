@@ -534,6 +534,9 @@ div.chota-gola {
     text-decoration: none;
     font-size: 10vw;
     }
+    .mini-round{
+        animation: none;
+    }
     .round{
     animation: none;
     }
