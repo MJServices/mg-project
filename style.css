@@ -430,6 +430,16 @@ div.chota-gola {
 }
 
 @media (max-width: 600px) {
+    
+.mini-round{
+    height: 500px;
+    width: 500px;
+    background: rgb(255, 140, 0);
+    border-radius: 50%;
+    position: absolute;
+    animation: lalalala;
+}
+
     .page3 div{
         font-size: 7vw;
         margin-left: 0;
