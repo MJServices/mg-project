@@ -436,7 +436,7 @@ div.chota-gola {
     width: 500px;
     background: rgb(255, 140, 0);
     border-radius: 50%;
-    position: absolute;
+    position: static;
     animation: boll 0s linear 0s infinite alternate;
 }
 
