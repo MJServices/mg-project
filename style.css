@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Montserrat:wght@100;300;400&family=Oswald:wght@300&family=Roboto:wght@100;400;700;900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,9 +10,7 @@ body{
     height: 100%;
     width: 100%;
 }
-main{
-    display: none
-}
+
 .intro{
     height: 100vh;
     width: 100vw;
@@ -45,6 +44,9 @@ main{
 .intro h1:nth-child(3){
     animation: intro 1.5s linear 4.5s;
 }
+.intro h1:nth-child(4){
+    animation: intro 1.5s linear 6s;
+}
 
 @keyframes intro {
     0%{
@@ -61,6 +63,9 @@ main{
     height: 170vh;
     width: 100vw;
 }
+nav h3 i{
+    display: none;
+}
 nav{
     height: 120px;
     width: 100%;
@@ -70,7 +75,7 @@ nav{
     position: relative;
 }
 .logo{
-    background-image: url("HMA_SERVICES.png");
+    background-image: url("/Images/HMA_SERVICES.png");
     height: 100%;
     width: 180px;
     background-size: cover;
@@ -106,6 +111,7 @@ nav{
     align-items: center;
     text-decoration: none;
     color: #000;
+    font-family: Montserrat;
 }
 .nav-part2 .button::before{
     content: "";
@@ -120,20 +126,22 @@ nav{
 }
 .nav-part2 .button:hover::before{
     top: 0;
-    transition: all 0.2s linear;
+    transition: all linear 0.3s;
     border-radius: 0;
 }
 .nav-part2 .button:hover h4{
     color: #fff;
     z-index: 10;
-    font-weight: 100;
+    font-weight: 400;
 }
 .nav-part2 .button:hover{
     border: none;
 
 }
 .nav-part2 .button h4{
-    font-weight: 550;
+    font-weight: 650;
+    font-family: Montserrat;
+
 }
 
 .container{
@@ -155,6 +163,7 @@ nav{
     margin: 0px 30px;
     letter-spacing: -1px;
     line-height: 30px;
+    font-family: Montserrat;
 }
 
 .right{
@@ -232,10 +241,10 @@ nav{
         transform: translate(5px, -100px);
     }
 }
+
 .page2{
     height: 30vh;
     width: 100%;
-    overflow: hidden;
 }
 .font-cont{
     display: flex;
@@ -263,6 +272,7 @@ div.chota-gola {
     }
 }
 .circle{
+    display: none;
     height: 15px;
     width: 15px;
     background-color: orangered;
@@ -270,35 +280,43 @@ div.chota-gola {
     border-radius: 50%;
     transition: all linear 0.1s;
     z-index: 9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .circle div{
     font-size: 2rem;
     color: #fff;
     display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 .page3{
     height: 70vh;
     width: 100vw;
     display: flex;
     align-items: center;
+    position: relative;
 }
 .page3 div{
     font-size: 5vw;
-    font-weight: 600;
     margin-left: 40px;
     text-align: left;
+    font-family: Montserrat;
 }
 .page3 div span:hover{
     color: orange;
     text-decoration:line-through;
-    font-weight: 600;
+    font-family: Montserrat;
+
+}
+.page3 div span{
+    font-family: Montserrat;
+
 }
 .moving-round{
     height: 100vh;
     width: 100vw;
+    position: absolute;
 }
 .round{
     height: 550px;
@@ -343,6 +361,49 @@ div.chota-gola {
         transform: translate(80px, 80px);
     }
 }
+
+.page4{
+    height: 120vh;
+    width: 100vw;
+    padding-top: 10vw;
+}
+.page4 section img{
+    object-fit: cover;
+    height: 28vw;
+    width: 30vw;
+    display: none;
+    transition: all linear 0.4s;
+    scale: 0;
+}
+.page4 section{
+    height: 30vh;
+    width: 100%;
+    border-top: 1px solid #000;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.page4 section a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 5vw;
+}
+.page4 section a h1{
+    font-weight: 300;
+    letter-spacing: -5px;
+    font-family: Montserrat;
+    font-weight: 600;
+    padding-left: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+/* .page4 section:hover img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline;
+    z-index: 99999;
+} */
 
 @media (max-width: 995px) {
     .right h1{
@@ -453,8 +514,7 @@ div.chota-gola {
         gap: 7px;
         transition: all linear 0.3s;
     }
-    .gola{
-        width: 100%;
+    
     .ham span{
         height: 2px;
         width: 30px;
