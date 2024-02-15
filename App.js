@@ -5,6 +5,7 @@ var hma = document.querySelector(".circle div")
 var buttons = document.querySelector(".button")
 var intro = document.querySelector(".intro")
 
+
 function loco(){
 const scroll = new LocomotiveScroll({
     el: document.querySelector('main'),
@@ -74,14 +75,12 @@ tl.from(".left div",{
 tl.from(".left button",{
    scale: 0,
 })
-tl.from(".contant .rieght",{
-    scale: 0
-})
+
 gsap.from(".page1 .img-cont video", {
     scale: 0,
 })
-main.style.display = "inline"
-}, 6000)
+
+}, 8000)
 
 function cursor(){
     main.addEventListener("mousemove", (val)=>{
@@ -91,8 +90,24 @@ function cursor(){
 }
 
 function mg_video() {
+    video.addEventListener("mouseenter", ()=>{
+        crcr.addEventListener("mousemove", (val)=>{
+            crcr.style.height =  100 + "px",
+            crcr.style.width =  100 + "px"
+            hma.style.display = "block"
+        })
+    })
+    
+        video.addEventListener("mouseleave", (val)=>{
+            crcr.style.height =  0 + "px",
+            crcr.style.width =  0 + "px"
+            hma.style.display = "none"
+        })
+    
+    
     video.addEventListener("mouseenter", (e)=>{
         // console.log("hi");
+        crcr.style.display = "inline"
         crcr.style.height = 100 + "px",
         crcr.style.width = 100 + "px"
         crcr.style.left = e.clientX + "px",
@@ -101,20 +116,89 @@ function mg_video() {
         hma.style.display = "block"
     })
     video.addEventListener("mouseleave", (e)=>{
-        crcr.style.height = 15 + "px",
-        crcr.style.width = 15 + "px",
+        crcr.style.display = "none"
         hma.style.display = "none"
         crcr.style.transition = "all linear 0.1s"
     })
 }
 
+function section(){
+    let imgf = document.querySelector("section .imgf")
+    var sectionf = document.querySelectorAll(".secf")
+    sectionf.forEach((sections)=>{ 
+            sections.addEventListener("mouseenter", ()=>{
+                imgf.style.position = "absolute"
+                imgf.style.display = "inline"
+                imgf.style.top = "-8vw"
+                imgf.style.left = "0"
+                imgf.style.zIndex = "9999"
+                imgf.style.scale = "1"
+            })
+            sections.addEventListener("mouseleave", ()=>{
+                imgf.style.position = "absolute"
+                imgf.style.display = "none"
+                imgf.style.top = "-8vw"
+                imgf.style.left = "0"
+                imgf.style.zIndex = "9999"
+                imgf.style.scale = "0"
+            })
+            sections.addEventListener("mousemove", (e)=>{
+                imgf.style.left = e.clientX - 215 + "px"
+                crcr.style.display = "inline"
+            })
+        })
+        var sectionsec =document.querySelector(".secs")
+        let imgs = document.querySelector("section .imgs")
+        sectionsec.addEventListener("mouseenter", ()=>{
+            imgs.style.position = "absolute"
+            imgs.style.display = "inline"
+            imgs.style.top = "-8vw"
+            imgs.style.left = "0"
+            imgs.style.zIndex = "9999"
+            imgs.style.scale = "1"
+        })
+        sectionsec.addEventListener("mouseleave", ()=>{
+            imgs.style.position = "absolute"
+            imgs.style.display = "none"
+            imgs.style.top = "-8vw"
+            imgs.style.left = "0"
+            imgs.style.zIndex = "9999"
+            imgs.style.scale = "0"
+        })
+        sectionsec.addEventListener("mousemove", (e)=>{
+            imgs.style.left = e.clientX - 215 + "px"
+            crcr.style.display = "inline"
+        })
+        var sectionset =document.querySelector(".sect")
+        let imgt = document.querySelector("section .imgt")
+        sectionset.addEventListener("mouseenter", ()=>{
+            imgt.style.position = "absolute"
+            imgt.style.display = "inline"
+            imgt.style.top = "-8vw"
+            imgt.style.left = "0"
+            imgt.style.zIndex = "9999"
+            imgt.style.scale = "1"
+        })
+        sectionset.addEventListener("mouseleave", ()=>{
+            imgt.style.position = "absolute"
+            imgt.style.display = "none"
+            imgt.style.top = "-8vw"
+            imgt.style.left = "0"
+            imgt.style.zIndex = "9999"
+            imgt.style.scale = "0"
+        })
+        sectionset.addEventListener("mousemove", (e)=>{
+            imgt.style.left = e.clientX - 215 + "px"
+            crcr.style.display = "inline"
+        })
+}
 
 setTimeout(()=>{
     intro.style.top = "-200%"
-}, 6000)
+}, 8000)
 
-
-
+section()
+// menuAnimation()
 mg_video()
 cursor()
 scrollXloco()
