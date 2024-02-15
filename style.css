@@ -431,6 +431,9 @@ div.chota-gola {
 
 @media (max-width: 600px) {
     
+.round{
+    animation: rounded 0s linear 0s infinite alternate;
+}
 .mini-round{
     height: 500px;
     width: 500px;
