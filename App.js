@@ -52,6 +52,7 @@ ScrollTrigger.refresh();
 
 
 setTimeout(()=>{
+    main.style.display = "inline"
     let tl = gsap.timeline()
 
 tl.from("nav .logo",{
