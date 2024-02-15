@@ -13,7 +13,7 @@ body{
 
 main{
     display: none;
-    width: 100vw;
+    width: 100%;
     overflow: hidden;
 }
 
