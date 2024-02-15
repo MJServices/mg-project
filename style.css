@@ -10,7 +10,11 @@ body{
     height: 100%;
     width: 100%;
 }
-
+main{
+    display:none;
+    width: 100vw;
+    overflow: hidden;
+}
 .intro{
     height: 100vh;
     width: 100vw;
