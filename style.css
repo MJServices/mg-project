@@ -251,6 +251,8 @@ nav{
 .page2{
     height: 30vh;
     width: 100%;
+    width: 100vw;
+    overflow: hidden;
 }
 .font-cont{
     display: flex;
@@ -259,8 +261,6 @@ nav{
     align-items: center;
     letter-spacing: -10px;
     animation: moving-text 7s linear 0s infinite alternate;
-    width: 100vw;
-    overflow: hidden;
 }
 div.chota-gola {
     height: 70px;
