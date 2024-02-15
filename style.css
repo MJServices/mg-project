@@ -259,6 +259,7 @@ nav{
     align-items: center;
     letter-spacing: -10px;
     animation: moving-text 7s linear 0s infinite alternate;
+    width: 100vw;
 }
 div.chota-gola {
     height: 70px;
