@@ -437,7 +437,7 @@ div.chota-gola {
     background: rgb(255, 140, 0);
     border-radius: 50%;
     position: absolute;
-    animation: lalalala;
+    animation: boll 0s linear 0s infinite alternate;
 }
 
     .page3 div{
