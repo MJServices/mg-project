@@ -59,6 +59,9 @@ body{
         opacity: 0;
     }
 }
+.main{
+    display: none;
+}
 .page1{
     height: 170vh;
     width: 100vw;
