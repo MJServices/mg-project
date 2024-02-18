@@ -419,7 +419,7 @@ div.chota-gola {
 
 @media (max-width: 600px) {
     .intro{
-        display: none;
+        margin-top: -500vh
     }
 .page2{
     height: 30vh;
