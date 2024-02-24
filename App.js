@@ -193,6 +193,28 @@ function section(){
             imgt.style.left = e.clientX - 215 + "px"
             crcr.style.display = "inline"
         })
+        var sectionset =document.querySelector(".secf")
+        let imgt = document.querySelector("section .imgf")
+        sectionset.addEventListener("mouseenter", ()=>{
+            imgt.style.position = "absolute"
+            imgt.style.display = "inline"
+            imgt.style.top = "-8vw"
+            imgt.style.left = "0"
+            imgt.style.zIndex = "9999"
+            imgt.style.scale = "1"
+        })
+        sectionset.addEventListener("mouseleave", ()=>{
+            imgt.style.position = "absolute"
+            imgt.style.display = "none"
+            imgt.style.top = "-8vw"
+            imgt.style.left = "0"
+            imgt.style.zIndex = "9999"
+            imgt.style.scale = "0"
+        })
+        sectionset.addEventListener("mousemove", (e)=>{
+            imgt.style.left = e.clientX - 215 + "px"
+            crcr.style.display = "inline"
+        })
 }
 
 setTimeout(()=>{
