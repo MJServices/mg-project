@@ -128,6 +128,7 @@ function section(){
     let imgf = document.querySelector("section .imgf")
     var sectionf = document.querySelectorAll(".secf")
     sectionf.forEach((sections)=>{ 
+        crcr.style.display = none
             sections.addEventListener("mouseenter", ()=>{
                 imgf.style.position = "absolute"
                 imgf.style.display = "inline"
@@ -152,6 +153,8 @@ function section(){
         var sectionsec =document.querySelector(".secs")
         let imgs = document.querySelector("section .imgs")
         sectionsec.addEventListener("mouseenter", ()=>{
+        crcr.style.display = none
+
             imgs.style.position = "absolute"
             imgs.style.display = "inline"
             imgs.style.top = "-8vw"
@@ -174,6 +177,8 @@ function section(){
         var sectionset =document.querySelector(".sect")
         let imgt = document.querySelector("section .imgt")
         sectionset.addEventListener("mouseenter", ()=>{
+        crcr.style.display = none
+
             imgt.style.position = "absolute"
             imgt.style.display = "inline"
             imgt.style.top = "-8vw"
@@ -196,6 +201,8 @@ function section(){
         var sectionsete =document.querySelector(".secfo")
         let imgfo = document.querySelector("section .imgfo")
         sectionsete.addEventListener("mouseenter", ()=>{
+        crcr.style.display = none
+
             imgfo.style.position = "absolute"
             imgfo.style.display = "inline"
             imgfo.style.top = "-8vw"
