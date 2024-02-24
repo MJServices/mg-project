@@ -255,7 +255,7 @@ nav{
     white-space: nowrap;
     align-items: center;
     letter-spacing: -10px;
-    animation: moving-text 7s linear 0s infinite alternate;
+    animation: moving-text 9s linear 0s infinite alternate;
 }
 div.chota-gola {
     height: 70px;
