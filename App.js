@@ -196,23 +196,23 @@ function section(){
         var sectionsete =document.querySelector(".secfo")
         let imgfo = document.querySelector("section .imgfo")
         sectionsete.addEventListener("mouseenter", ()=>{
-            imgt.style.position = "absolute"
-            imgt.style.display = "inline"
-            imgt.style.top = "-8vw"
-            imgt.style.left = "0"
-            imgt.style.zIndex = "9999"
-            imgt.style.scale = "1"
+            imgfo.style.position = "absolute"
+            imgfo.style.display = "inline"
+            imgfo.style.top = "-8vw"
+            imgfo.style.left = "0"
+            imgfo.style.zIndex = "9999"
+            imgfo.style.scale = "1"
         })
         sectionsete.addEventListener("mouseleave", ()=>{
-            imgt.style.position = "absolute"
-            imgt.style.display = "none"
-            imgt.style.top = "-8vw"
-            imgt.style.left = "0"
-            imgt.style.zIndex = "9999"
-            imgt.style.scale = "0"
+            imgfo.style.position = "absolute"
+            imgfo.style.display = "none"
+            imgfo.style.top = "-8vw"
+            imgfo.style.left = "0"
+            imgfo.style.zIndex = "9999"
+            imgfo.style.scale = "0"
         })
         sectionsete.addEventListener("mousemove", (e)=>{
-            imgt.style.left = e.clientX - 215 + "px"
+            imgfo.style.left = e.clientX - 215 + "px"
             crcr.style.display = "inline"
         })
 }
