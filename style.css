@@ -418,6 +418,9 @@ div.chota-gola {
 }
 
 @media (max-width: 600px) {
+    .page1{
+        height: 70vh;
+    }
     .intro{
         margin-top: -500vh
     }
