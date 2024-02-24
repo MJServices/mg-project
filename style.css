@@ -418,9 +418,7 @@ div.chota-gola {
 }
 
 @media (max-width: 600px) {
-    .page1{
-        height: 50vh;
-    }
+    
     .intro{
         margin-top: -500vh
     }
@@ -504,7 +502,7 @@ div.chota-gola {
         letter-spacing: -5px;
     }
     .page1{
-        height: 170vh;
+        height: 130vh;
     }
     .page2{
         height: 20vh;
