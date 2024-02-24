@@ -193,9 +193,9 @@ function section(){
             imgt.style.left = e.clientX - 215 + "px"
             crcr.style.display = "inline"
         })
-        var sectionset =document.querySelector(".secfo")
+        var sectionsete =document.querySelector(".secfo")
         let imgfo = document.querySelector("section .imgfo")
-        sectionset.addEventListener("mouseenter", ()=>{
+        sectionsete.addEventListener("mouseenter", ()=>{
             imgt.style.position = "absolute"
             imgt.style.display = "inline"
             imgt.style.top = "-8vw"
@@ -203,7 +203,7 @@ function section(){
             imgt.style.zIndex = "9999"
             imgt.style.scale = "1"
         })
-        sectionset.addEventListener("mouseleave", ()=>{
+        sectionsete.addEventListener("mouseleave", ()=>{
             imgt.style.position = "absolute"
             imgt.style.display = "none"
             imgt.style.top = "-8vw"
@@ -211,7 +211,7 @@ function section(){
             imgt.style.zIndex = "9999"
             imgt.style.scale = "0"
         })
-        sectionset.addEventListener("mousemove", (e)=>{
+        sectionsete.addEventListener("mousemove", (e)=>{
             imgt.style.left = e.clientX - 215 + "px"
             crcr.style.display = "inline"
         })
