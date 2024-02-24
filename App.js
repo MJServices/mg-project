@@ -193,8 +193,8 @@ function section(){
             imgt.style.left = e.clientX - 215 + "px"
             crcr.style.display = "inline"
         })
-        var sectionset =document.querySelector(".secf")
-        let imgf = document.querySelector("section .imgf")
+        var sectionset =document.querySelector(".secfo")
+        let imgfo = document.querySelector("section .imgfo")
         sectionset.addEventListener("mouseenter", ()=>{
             imgt.style.position = "absolute"
             imgt.style.display = "inline"
