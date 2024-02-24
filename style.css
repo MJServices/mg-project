@@ -271,7 +271,7 @@ div.chota-gola {
         transform: translateX(0);
     }
     100%{
-        transform: translateX(-150vw);
+        transform: translateX(-200vw);
     }
 }
 .circle{
