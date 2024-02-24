@@ -128,8 +128,9 @@ function section(){
     let imgf = document.querySelector("section .imgf")
     var sectionf = document.querySelectorAll(".secf")
     sectionf.forEach((sections)=>{ 
-        crcr.style.display = "none"
             sections.addEventListener("mouseenter", ()=>{
+                crcr.style.display = "none"
+
                 imgf.style.position = "absolute"
                 imgf.style.display = "inline"
                 imgf.style.top = "-8vw"
